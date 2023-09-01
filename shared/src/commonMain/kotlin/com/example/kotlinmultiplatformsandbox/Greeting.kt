@@ -14,8 +14,8 @@ class Greeting {
         val lastSuccessLaunch = rockets.last { it.launchSuccess == true }
 
         return "Guess what it is! > ${platform.name}! " +
-                "+ \nThere are only ${daysUntilNewYear()} " +
+                "+ \n\nThere are only ${daysUntilNewYear()} " +
                 "days left until New Year! \uD83C\uDF86\"" +
-                "\nSpace x latest rocket launch ${lastSuccessLaunch.launchDateUTC}"
+                "\n\nSpace x latest rocket launch ${lastSuccessLaunch.launchDateUTC}"
     }
 }
